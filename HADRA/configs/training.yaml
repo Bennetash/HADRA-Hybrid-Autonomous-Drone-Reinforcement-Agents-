@@ -1,0 +1,11 @@
+training:
+  batch_size: 128
+  buffer_size: 100000
+  max_steps: 500
+  gamma: 0.99
+  tau: 0.005
+  alpha: 0.2
+
+env:
+  image_size: [256, 144]
+  normalize: True
